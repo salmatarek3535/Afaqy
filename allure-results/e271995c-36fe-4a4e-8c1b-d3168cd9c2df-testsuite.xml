@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1730512002007' stop='1730512017247'>
+    <name>automation excercise Sign Up feature</name>
+    <title>automation excercise Sign Up feature</title>
+    <test-cases>
+        <test-case start='1730512002027' status='passed' stop='1730512017247'>
+            <name>Sign up with valid credentials</name>
+            <title>Sign up with valid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
