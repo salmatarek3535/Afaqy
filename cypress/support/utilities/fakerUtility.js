@@ -20,6 +20,5 @@ class FakerUtility
         }
         return signUpDetails;
     }
-
 }
 export default FakerUtility

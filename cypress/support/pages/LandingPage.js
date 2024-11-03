@@ -3,7 +3,6 @@ class LandingPage{
    logoutLocator= "//a[text()=' Logout']";
    signUpLocator= "//a[contains(text(),'Signup')]";
 
-
     validateAccountSignedUp()
     {
         cy.readFile("cypress/fixtures/signupCredentials.json").then(signUpData =>{
@@ -19,7 +18,5 @@ class LandingPage{
     {
         cy.xpath(this.signUpLocator).should('be.visible');
     }
-
-
 }
 export default LandingPage;

@@ -16,12 +16,20 @@
   "devDependencies": {
     "@faker-js/faker": "^9.1.0",
     "allure-commandline": "^2.32.0",
+    "cucumber-html-reporter": "^6.0.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-xpath": "^2.0.1",
-    "mocha-allure-reporter": "^1.4.0"
+    "mocha-allure-reporter": "^1.4.0",
+    "multiple-cucumber-html-reporter": "^3.8.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinition": true,
-    "stepDefinitions": "cypress/e2e/step-definitions"
+    "stepDefinitions": "cypress/e2e/step_definitions",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   }
 }

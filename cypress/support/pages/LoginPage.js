@@ -17,7 +17,5 @@ class LoginPage{
             cy.get(this.signUpButtonLocator).click();
         })
     }
-
-
 }
 export default LoginPage;

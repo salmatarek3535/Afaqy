@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "automation excercise Sign Up feature",
+    "line": 1,
+    "id": "automation-excercise-sign-up-feature",
+    "tags": [],
+    "uri": "SignUp.feature",
+    "elements": [
+      {
+        "id": "automation-excercise-sign-up-feature;sign-up-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Sign up with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user opens automationexercise website",
+            "result": {
+              "status": "passed",
+              "duration": 5625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user navigates to Login page",
+            "result": {
+              "status": "passed",
+              "duration": 741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user fills the SignUp form with valid name and email",
+            "result": {
+              "status": "passed",
+              "duration": 2841000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user fills additional SignUp details",
+            "result": {
+              "status": "passed",
+              "duration": 5156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user validates that account created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 10903000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user logout",
+            "result": {
+              "status": "passed",
+              "duration": 1955000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "validate that user logout successfully",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

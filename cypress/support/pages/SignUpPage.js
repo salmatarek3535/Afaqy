@@ -43,7 +43,5 @@ class SignUpPage{
         cy.get(this.accountCreatedLocator).should('be.visible');
         cy.get(this.continueBtnLocator).click();
     }
-
-
 }
 export default SignUpPage;
