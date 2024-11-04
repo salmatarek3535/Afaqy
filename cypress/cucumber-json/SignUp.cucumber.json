@@ -22,7 +22,7 @@
             "name": "user opens automationexercise website",
             "result": {
               "status": "passed",
-              "duration": 8944000000
+              "duration": 5825000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user navigates to Login page",
             "result": {
               "status": "passed",
-              "duration": 927000000
+              "duration": 1082000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "user fills the SignUp form with valid name and email",
             "result": {
               "status": "passed",
-              "duration": 2017000000
+              "duration": 2126000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "user fills additional SignUp details",
             "result": {
               "status": "passed",
-              "duration": 6008000000
+              "duration": 8639000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "user validates that account created successfully",
             "result": {
               "status": "passed",
-              "duration": 5463000000
+              "duration": 3481000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "user logout",
             "result": {
               "status": "passed",
-              "duration": 1274000000
+              "duration": 1254000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "validate that user logout successfully",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 58000000
             }
           }
         ]

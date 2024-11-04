@@ -1,22 +1,22 @@
 import {Given, When, Then} from "cypress-cucumber-preprocessor/steps";
-import HomePage from "../../support/pages/HomePage";
+import HomePageBeforeSignUp from "../../support/pages/HomePageBeforeSignUp";
 import LoginPage from "../../support/pages/LoginPage";
 import SignUpPage from "../../support/pages/SignUpPage";
-import LandingPage from "../../support/pages/LandingPage";
+import HomePageAfterSignUp from "../../support/pages/HomePageAfterSignUp";
 
 const url= Cypress.config().baseUrl;
-const homePage= new HomePage();
+const homePageBeforeSignUp= new HomePageBeforeSignUp();
 const loginPage= new LoginPage();
 const signUpPage= new SignUpPage();
-const landingPage= new LandingPage();
+const homePageAfterSignUp= new HomePageAfterSignUp();
 
 Given('user opens automationexercise website', ()=>{
     cy.visit(url);
-    homePage.validateHomePage(); // validate that user in the home page
+    homePageBeforeSignUp.validateHomePage(); // validate that user in the home page
 });
 
 When('user navigates to Login page', ()=>{
-    homePage.navigateToLoginPage();
+    homePageBeforeSignUp.navigateToLoginPage();
     loginPage.validateLoginPage(); // validate that user in the login page
 });
 
@@ -31,13 +31,13 @@ When('user fills additional SignUp details', ()=>{
 
 Then('user validates that account created successfully',()=>{
     signUpPage.validateAccountCreated();
-    landingPage.validateAccountSignedUp();
+    homePageAfterSignUp.validateAccountSignedUp();
 });
 
 When('user logout', ()=>{
-    landingPage.logout();
+    homePageAfterSignUp.logout();
 });
 
 Then('validate that user logout successfully',()=>{
-    landingPage.validateUserLogout();
-})
+    homePageAfterSignUp.validateUserLogout();
+});

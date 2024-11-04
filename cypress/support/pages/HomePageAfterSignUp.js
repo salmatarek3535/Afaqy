@@ -1,4 +1,4 @@
-class LandingPage{
+class HomePageAfterSignUp{
 
    logoutLocator= "//a[text()=' Logout']";
    signUpLocator= "//a[contains(text(),'Signup')]";
@@ -19,4 +19,4 @@ class LandingPage{
         cy.xpath(this.signUpLocator).should('be.visible');
     }
 }
-export default LandingPage;
+export default HomePageAfterSignUp;

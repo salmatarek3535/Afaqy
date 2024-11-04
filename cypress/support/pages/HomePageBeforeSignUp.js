@@ -1,4 +1,4 @@
-class HomePage{
+class HomePageBeforeSignUp{
 
     signUpLocator= "//a[contains(text(),'Signup')]";
     featuresItemsLocator= "//h2[text()='Features Items']"
@@ -13,4 +13,4 @@ class HomePage{
         cy.xpath(this.signUpLocator).click();
     }
 }
-export default HomePage;
+export default HomePageBeforeSignUp;
